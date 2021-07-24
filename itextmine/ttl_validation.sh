@@ -1,0 +1,9 @@
+perl validateTTL.pl rdf/rlims.litcovid.medline/ > rlims.litcovid.medline.ttl.validation.log
+perl validateTTL.pl rdf/efip.litcovid.medline/ > efip.litcovid.medline.ttl.validation.log
+perl validateTTL.pl rdf/mirtex.litcovid.medline/ > mirtex.litcovid.medline.ttl.validation.log
+perl validateTTL.pl rdf/rlims.cord19.medline/ > rlims.cord19.medline.ttl.validation.log
+perl validateTTL.pl rdf/efip.cord19.medline/ > efip.cord19.medline.ttl.validation.log
+perl validateTTL.pl rdf/mirtex.cord19.medline/ > mirtex.cord19.medline.ttl.validation.log
+perl validateTTL.pl rdf/rlims.cord19.pmc/ > rlims.cord19.pmc.ttl.validation.log
+perl validateTTL.pl rdf/efip.cord19.pmc/ > efip.cord19.pmc.ttl.validation.log
+perl validateTTL.pl rdf/mirtex.cord19.pmc/ > mirtex.cord19.pmc.ttl.validation.log
