@@ -8,7 +8,7 @@ This repository contains code used to generate RDF files for COVID-19 Knowledge 
 bash, perl, java, python, node.js
 ```
 
-### RDF NTriples/Turtle validator using Ruben Verborgh's N3 NodeJS library. Validate Turtle and Ntriples documents on syntax and XSD datatype errors through command line. https://github.com/MMLab/TurtleValidator
+RDF NTriples/Turtle validator using Ruben Verborgh's N3 NodeJS library. Validate Turtle and Ntriples documents on syntax and XSD datatype errors through command line. https://github.com/MMLab/TurtleValidator
 
 ```
 npm install -g turtle-validator
