@@ -1,7 +1,8 @@
 # iTextMine
 
 This directory contains code for generating RDF files of iTextMine annotations. 
-Currently, the source JSON files (RLIMSP, eFIP, and miRTex) are available internally.
+Currently, the source JSON files (RLIMSP, eFIP, and miRTex) are available internally. 
+Please contact us (chenc@udel.edu).
 
 ## Split the iTextMine BioC JSON file into per document BioC JSON files.
 
