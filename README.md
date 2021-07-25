@@ -64,3 +64,7 @@ Go to "string" directory and follow the README.md in that directory.
 ## SARS-CoV-2 Phosphoproteomics
 
 Go to "phosphoproteomics" directory and follow the README.md in that directory.
+
+## iPTMnet 
+
+Go to "iptmnet" directory and follow the README.md in that directory.
