@@ -1,0 +1,5 @@
+@prefix iptmnet: <https://research.bioinformatics.udel.edu/iptmnet/> .
+@prefix uniprot: <http://purl.uniprot.org/uniprot/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obo:    <http://purl.obolibrary.org/obo/> .
+
