@@ -21,7 +21,7 @@ perl split_json.pl litcovid2pubtator.json litcovid2pubtator
 ## Get litcovid pmids 
 
 ```
-python getMetadataIds.py > litcovid_pmid.txt
+python getMetadataIds.py | sed 's/None//' | awk -F"|" '{print $1"\t"$2}' > litcovid_pmid_pmcid.txt
 ```
 
 ## Run shell scripts to convert the downloaded JSON to RDF turtle.
