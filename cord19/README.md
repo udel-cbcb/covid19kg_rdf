@@ -36,7 +36,7 @@ Add Jena bin to path
 ## Convert metadata JSON to RDF turtle
 
 ```
-nohup python json_to_rdf.py > metadata_json_to_ttl.log 
+nohup python metadata_json_to_rdf.py > metadata_json_to_ttl.log 
 ```
 
 ## Get CORD-19 corduid mapping to pmcid and pmid  
