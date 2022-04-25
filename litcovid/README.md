@@ -5,6 +5,8 @@ This directory contains code for generating RDF files of LitCovid metadata and a
 ## Download LitCovid metadata and PubTatator annotations in BioC JSON format from NCBI 
 
 ```
+mkdir -p rdf/litcovid
+mkdir -p rdf/litcovid_pubtator
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/litcovid2BioCJSON.gz   -O litcovid2BioCJSON.gz 
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitCovid/litcovid2pubtator.json.gz -O litcovid2pubtator.json.gz 
 gunzip -c litcovid2pubtator.json.gz  | sed 1,3d > litcovid2pubtator.json
