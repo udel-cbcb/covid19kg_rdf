@@ -7,8 +7,8 @@ do
   echo $f
   file="$(basename $f)"
   file="${file%%.*}"
-  cat $f | java -jar /home/chenc/covid19kg_rdf/json2rdf-1.0.1-jar-with-dependencies.jar $target_uri | /home/chenc/apache-jena-3.15.0/bin/riot  --formatted=TURTLE > rdf/pubtator/$file.ttl
-  echo "rdf/pubtator/$file.ttl"
+  cat $f | java -jar /home/chenc/covid19kg_rdf/json2rdf-1.0.1-jar-with-dependencies.jar $target_uri | /home/chenc/apache-jena-3.15.0/bin/riot  --formatted=TURTLE > rdf/litcovid_pubtator/$file.ttl
+  echo "rdf/litcovid_pubtator/$file.ttl"
 done
 
 
