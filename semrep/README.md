@@ -7,9 +7,9 @@
 curl https://ii.nlm.nih.gov/SemRep_SemMedDB_SKR/COVID-19/LitCovid/LitCovid.SemRep.tar.gz --output LitCovid.SemRep.tar.gz
 curl https://ii.nlm.nih.gov/SemRep_SemMedDB_SKR/COVID-19/CORD-19/CORD-19.SemRep.ALL.tar.gz --output CORD-19.SemRep.ALL.tar.gz
 mkdir LitCovid.SemRep
-tar zxvf LitCovid.SemRep.tar.gz -C LitCovid.SemRep/ 
+tar zxvf LitCovid.SemRep.tar.gz -C LitCovid.SemRep 
 mkdir CORD-19.SemRep
-tar zxvf CORD-19.SemRep.ALL.tar.gz -C CORD-19.SemRep/
+tar zxvf CORD-19.SemRep.ALL.tar.gz -C CORD-19.SemRep
 ```
 
 ## Convert SemRep data to RDF
