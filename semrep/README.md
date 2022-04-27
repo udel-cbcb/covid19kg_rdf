@@ -27,8 +27,8 @@ nohup perl convertCORD19SemRepToTTL.pl cord19_uid_docid.txt CORD-19.SemRep rdf/c
 ## Validate RDF turtle files
 
 ```
-nohup perl validateTTL.pl rdf/litcovid_semrep/ > litcovid_semrep_ttl_validation.log 
-nohup perl validateTTL.pl rdf/cord19_semrep/ > cord19_semrep_ttl_validation.log 
+nohup perl validateTTL.pl rdf/litcovid_semrep > litcovid_semrep_ttl_validation.log 
+nohup perl validateTTL.pl rdf/cord19_semrep > cord19_semrep_ttl_validation.log 
 ```
 
 ## Combine RDF files for dissemination
