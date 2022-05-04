@@ -62,9 +62,9 @@ nohup sh pmc_json_to_ttl.sh > pmc_json_to_ttl.log
 
 ```
 cd ../../
-nohup perl validateTTL.pl rdf/metadata/ > metadata_ttl_validation.log  
-nohup perl validateTTL.pl rdf/pm/ > pm_ttl_validation.log  
-nohup perl validateTTL.pl rdf/pmc/ > pmc_ttl_validation.log  
+nohup perl validateTTL.pl rdf/metadata > metadata_ttl_validation.log  
+nohup perl validateTTL.pl rdf/pm > pm_ttl_validation.log  
+nohup perl validateTTL.pl rdf/pmc > pmc_ttl_validation.log  
 ```
 
 ## Combine RDF files for dissemination
