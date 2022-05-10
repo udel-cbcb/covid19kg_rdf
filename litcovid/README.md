@@ -36,8 +36,8 @@ nohup sh litcovid2pubtator_json_to_ttl.sh 2>&1  > litcovid2pubtator_json_to_ttl.
 ## Validate RDF turtle files
 
 ```
-nohup perl validateTTL.pl rdf/litcovid/ > litcovid_ttl_validation.log
-nohup perl validateTTL.pl rdf/litcovid_pubtator/ > litcovid_pubtator_ttl_validation.log
+nohup perl validateTTL.pl rdf/litcovid > litcovid_ttl_validation.log
+nohup perl validateTTL.pl rdf/litcovid_pubtator > litcovid_pubtator_ttl_validation.log
 ```
 
 ## Combine RDF files for dissemination
